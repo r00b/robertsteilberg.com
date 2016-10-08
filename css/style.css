@@ -2809,6 +2809,24 @@ figure {}
         width: 80%; /* Could be more or less, depending on screen size */
       }
 
+      .equino-modal-image {
+        border: 1px solid;
+      }
+
+      .modal-body a {
+        color: #EE3B24;
+      }
+
+      .pokemon-modal-image {
+        width: 31%;
+        border: 1px solid;
+      }
+
+      #pokemon-modal-image-center {
+        margin-left: 25px;
+        margin-right:25px;
+      }
+
       /* The Close Button */
       .modal-close {
         color: #FFF;
