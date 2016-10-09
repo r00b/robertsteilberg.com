@@ -1125,7 +1125,7 @@ embed, iframe, object {
 .hs-slide {
   position: relative;
   height: 100vh;
-  background-image: url(../images/Chapel.png);
+  background-image: url(../images/Chapel-exterior.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -1817,7 +1817,7 @@ color: #EE3B24;
 #hs-contact-section {
   color: #FFF;
   /*background-image: url(http://www.jessicajonesdesign.com/downloads/lines-wallpaper-orange.gif) !important;*/
-  background-image: url(../test.jpg) !important;
+  background-image: url(../images/Chapel-interior.jpg) !important;
 
   no-repeat top center fixed !important;
   /* this has to be important'd to work on mobile not sure why */
@@ -2511,7 +2511,7 @@ body {
   position: relative;
 }
 .bg-image {
-  background: url(../images/Test.jpg) 50% 0px no-repeat;
+  background: url(../images/Robert-standing.jpg) 50% 0px no-repeat;
 }
 
 /* Misc
