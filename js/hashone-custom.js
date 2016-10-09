@@ -1,11 +1,3 @@
-/**
-* Hashone Custom JS
-*
-* @package hashone
-*
-* Distributed under the MIT license - http://opensource.org/licenses/MIT
-*/
-
 jQuery(function($) {
 
   $('#hs-bx-slider').bxSlider({
@@ -174,15 +166,9 @@ jQuery(function($) {
     }, 800);
   });
 
-  // $('#menu-item-26').click(function() {
-  //   $("html,body").animate({
-  //     scrollTop: $('#blog').offset().top - 82
-  //   }, 800);
-  // });
-
   $('#menu-item-contact').click(function() {
     $("html,body").animate({
-      scrollTop: $('#hs-contact-section').offset().top - 82
+      scrollTop: $('#hs-contact-section').offset().top - 81
     }, 800);
   });
 

@@ -236,6 +236,7 @@
         <!-- Project Tiles -->
         <div class="hs-portfolio-post-wrap wow zoomIn" data-wow-duration="0.5s" data-wow-delay="1.5s">
           <div class="hs-portfolio-posts hs-clearfix">
+
             <div class="hs-portfolio web-development all">
               <div class="hs-portfolio-inner">
                 <img src="images/equino.png" alt="Centro Integral de Equinoterapia">
@@ -246,6 +247,18 @@
                 </div>
               </div>
             </div>
+
+            <div class="hs-portfolio web-development all">
+              <div class="hs-portfolio-inner">
+                <img src="images/rails-blogger.png" alt="Rails Blogger">
+                <div class="hs-portfolio-caption">
+                  <h4>Ruby on Rails<br/>Blogger</h4>
+                  <a class="hs-portfolio-image" id="rails-blogger-modal-button" data-lightbox-gallery="gallery1"><i class="fa fa-search" id="rails-blogger-modal-button"></i></a>
+                  <a class="hs-portfolio-link" href="https://github.com/robertsteilberg/The-Odin-Project/tree/master/Rails-Blogger" target="_blank"><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+
             <div class="hs-portfolio software-development all">
               <div class="hs-portfolio-inner">
                 <img src="images/PokemonDukeBlueIntro.png" alt="Centro Integral de Equinoterapia">
@@ -256,6 +269,18 @@
                 </div>
               </div>
             </div>
+
+            <div class="hs-portfolio software-development all">
+              <div class="hs-portfolio-inner">
+                <img src="images/CellSociety.png" alt="CellSociety">
+                <div class="hs-portfolio-caption">
+                  <h4>CellSociety</h4>
+                  <a class="hs-portfolio-image" id="cellsociety-modal-button" data-lightbox-gallery="gallery1"><i id="cellsociety-modal-button" class="fa fa-search"></i></a>
+                  <a class="hs-portfolio-link" href="https://github.com/robertsteilberg/CellSociety" target="_blank"><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
         <!-- Modals -->
@@ -271,10 +296,28 @@
               <p>I built the website on Drupal due to time and bandwith constraints. However, I used HTML5 to heavily modify and customize the layout of the webpage, along with CSS3 to optimize the site for mobile devices. Visual effects, such as the homepage slide show, are implemented with JavaScript and jQuery.</p>
               <p>Check out the website for yourself <a href="http://ciequinoterapia.com/" target="_blank">here</a>! The website's repository is available <a href="https://github.com/robertsteilberg/ciequinoterapia.com" target="_blank">here</a>.</p>
               <br />
-              <img class="equino-modal-image" src="images/ciequinoterapia.com.png" alt="ciequinoterapia.com">
+              <img class="single-modal-image" src="images/ciequinoterapia.com.png" alt="ciequinoterapia.com">
             </div>
           </div>
         </div>
+
+        <div id="rails-blogger-modal rails-blogger-modal-button rails-blogger-modal-close" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span id="rails-blogger-modal-close" class="modal-close">×</span>
+              <h2>CellSociety</h2>
+            </div>
+            <div class="modal-body">
+              <br />
+              <p>Rails Blogger is a simple blogging application that I built with Ruby on Rails. This was my first Rails project and served primarily as my initial test-drive of the Ruby programming language along with the Rails framework.</p>
+              <p>This blogging application features creating, commenting, editing, and deleting articles, along with user authentication and permissions management.</p>
+              <p>Check out the repository <a href="https://github.com/robertsteilberg/The-Odin-Project/tree/master/Rails-Blogger" target="_blank">here</a>.</p>
+              <br />
+              <img class="single-modal-image" src="images/rails-blogger-article.png" alt="Rails Blogger">
+            </div>
+          </div>
+        </div>
+
         <div id="game-modal game-modal-button game-modal-close" class="modal">
           <div class="modal-content">
             <div class="modal-header">
@@ -285,13 +328,31 @@
               <br />
               <p>Pokémon Duke Blue is a role-playing videogame built with JavaFX that is based off of the popular Pokémon videogame series. I built the game because I wanted to learn JavaFX and more about graphical user interfaces.</p>
               <p>The game features a navigable world that the player explores by controlling a sprite. The player can interact with several non-player-characters with the sprite and can also challenge the game boss to a turn-style Pokémon battle. Sound effects and cheat codes are also included.</p>
-              <p>You can download and play the game yourself <a href="https://drive.google.com/file/d/0B263hkexplymMkNaMnE1SmRYTm8/view?usp=sharing" target="_blank">here</a>. Export the ZIP archive into your file system and double-click the JAR file to start the game. The program's repository along with complete gameplay instructions are available <a href="https://github.com/robertsteilberg/Pokemon-Duke-Blue" target="_blank">here</a>.</p>
+              <p>You can download and play the game yourself <a href="https://docs.google.com/uc?id=0B263hkexplymMkNaMnE1SmRYTm8&export=download" target="_blank">here</a>. Export the ZIP archive into your file system and double-click the JAR file to start the game. The program's repository along with complete gameplay instructions are available <a href="https://github.com/robertsteilberg/Pokemon-Duke-Blue" target="_blank">here</a>.</p>
               <img class="pokemon-modal-image" src="images/PokemonDukeBlueWorld.png" alt="ciequinoterapia.com">
               <img id="pokemon-modal-image-center" class="pokemon-modal-image" src="images/PokemonDukeBlueBattle.png" alt="ciequinoterapia.com">
               <img class="pokemon-modal-image" src="images/PokemonDukeBlueWin.png" alt="ciequinoterapia.com">
             </div>
           </div>
         </div>
+
+        <div id="cellsociety-modal cellsociety-modal-button cellsociety-modal-close" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span id="cellsociety-modal-close" class="modal-close">×</span>
+              <h2>CellSociety</h2>
+            </div>
+            <div class="modal-body">
+              <br />
+              <p>CellSociety is a cellular automata simulation engine coded in Java using the JavaFX framework. I developed this application with two other team members. I primarily served as the project's front end developer, overseeing GUI development, CSS styling, and simulation control. I was additionally in charge of interfacing the front end GUI with the program's back end logic that powers each simulation.</p>
+              <p>The application simulates several different cellular automata simulations along with GUI controls that allow the user to customize how each simulation is executed. The software stack also includes a DOM parser for XML; this allowed for further modifications of simulation parameters through XML files tailored for each type of simulation.</p>
+              <p>You can download and run the simulations yourself <a href="content/CellSociety.zip" target="_blank">here</a>. Export the ZIP archive into your file system and double-click the JAR file to start the game. The program's repository along with complete instructions are available <a href="https://github.com/robertsteilberg/CellSociety" target="_blank">here</a>.</p>
+              <img class="single-modal-image" src="images/CellSociety-simulation1.png" alt="CellSociety">
+              <img class="single-modal-image" src="images/CellSociety-simulation2.png" alt="CellSociety">
+            </div>
+          </div>
+        </div>
+
       </section>
       <!-- Contact Section -->
       <section id="hs-contact-section" data-stellar-background-ratio="0.2">
@@ -335,7 +396,7 @@
                   </li>
                   <div class="hs-contact-email">
                     <li>
-                      <i class="fa fa-envelope"></i><a href="mailto:contact@robertsteilberg.com">contact@robertsteilberg.com</a>
+                      <i class="fa fa-envelope"></i><a href="mailto:rhs16@cs.duke.edu">rhs16@cs.duke.edu</a>
                     </li>
                   </div>
                   <div class="hs-contact-website">
