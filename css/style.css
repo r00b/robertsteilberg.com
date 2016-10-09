@@ -2805,7 +2805,7 @@ body {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 7% auto; /* 15% from the top and centered */
+  margin: 3% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
@@ -2813,6 +2813,10 @@ body {
 
 .single-modal-image {
   border: 1px solid;
+}
+
+.upper-modal-image {
+  margin-bottom: 20px;
 }
 
 .modal-body a {
