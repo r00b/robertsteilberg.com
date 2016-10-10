@@ -1816,15 +1816,9 @@ color: #EE3B24;
 
 #hs-contact-section {
   color: #FFF;
-  /*background-image: url(http://www.jessicajonesdesign.com/downloads/lines-wallpaper-orange.gif) !important;*/
-  background-image: url(../images/Chapel-interior.jpg) !important;
-
-  no-repeat top center fixed !important;
-  /* this has to be important'd to work on mobile not sure why */
-  /* this is being overriden!!! */
+  background-image: url(../images/Chapel-interior.jpg);
   background-size: cover;
   background-attachment: fixed;
-
   overflow: hidden;
 }
 body {
@@ -1834,15 +1828,6 @@ body {
 }
 .hs-contact-section {
   position: relative;
-}
-#hs-contact-section .hs-contact-overlay {
-  /*position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;*/
-  /*  background: rgba(0,0,0,0.3); */
-  /* background: url(http://www.robertsteilberg.com/images/Chapel.png) !important; */
 }
 #hs-contact-section .hs-container {
   position: relative;
@@ -2756,6 +2741,11 @@ body {
     /*  margin-top: 5px; */
     border-radius: 50%;
   }
+  #inspectX {
+    border-radius: 15%;
+    max-width: 80%;
+    position: static;
+  }
   h3 span {
     color: #EE3B24;
   }
@@ -2783,203 +2773,203 @@ body {
   }
 
 
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 9999; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 0.5s; /* Firefox < 16 */
-  -ms-animation: fadein 0.5s; /* Internet Explorer */
-  -o-animation: fadein 0.5s; /* Opera < 12.1 */
-  animation: fadein 0.5s;
-}
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 0.5s; /* Firefox < 16 */
+    -ms-animation: fadein 0.5s; /* Internet Explorer */
+    -o-animation: fadein 0.5s; /* Opera < 12.1 */
+    animation: fadein 0.5s;
+  }
 
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 3% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 3% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
 
-.single-modal-image {
-  border: 1px solid;
-}
+  .single-modal-image {
+    border: 1px solid;
+  }
 
-.upper-modal-image {
-  margin-bottom: 20px;
-}
+  .upper-modal-image {
+    margin-bottom: 20px;
+  }
 
-.modal-body a {
-  color: #EE3B24;
-}
+  .modal-body a {
+    color: #EE3B24;
+  }
 
-.pokemon-modal-image {
-  width: 31%;
-  border: 1px solid;
-}
+  .pokemon-modal-image {
+    width: 31%;
+    border: 1px solid;
+  }
 
-#pokemon-modal-image-center {
-  margin-left: 25px;
-  margin-right:25px;
-}
+  #pokemon-modal-image-center {
+    margin-left: 25px;
+    margin-right:25px;
+  }
 
-/* The Close Button */
-.modal-close {
-  color: #FFF;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
+  /* The Close Button */
+  .modal-close {
+    color: #FFF;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
 
-.modal-close:hover,
-.modal-close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
+  .modal-close:hover,
+  .modal-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
-/* Modal Header */
-.modal-header {
-  padding: 2px 16px;
-  background-color: #EE3B24;
-  color: white;
-}
+  /* Modal Header */
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #EE3B24;
+    color: white;
+  }
 
-/* Modal Body */
-.modal-body {
-  padding: 2px 16px;
-}
+  /* Modal Body */
+  .modal-body {
+    padding: 2px 16px;
+  }
 
-/* Modal Footer */
-.modal-footer {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
-}
+  /* Modal Footer */
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
 
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
 
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
 
-/* Internet Explorer */
-@-ms-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
 
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
-
+  /* Opera < 12.1 */
+  @-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
 
 
-@keyframes fadeout {
-  from { opacity: 1; }
-  to   { opacity: 0; }
-}
 
-/* Firefox < 16 */
-@-moz-keyframes fadeout {
-  from { opacity: 1; }
-  to   { opacity: 0; }
-}
 
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadeout {
-  from { opacity: 1; }
-  to   { opacity: 0; }
-}
+  @keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+  }
 
-/* Internet Explorer */
-@-ms-keyframes fadeout {
-  from { opacity: 1; }
-  to   { opacity: 0; }
-}
+  /* Firefox < 16 */
+  @-moz-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+  }
 
-/* Opera < 12.1 */
-@-o-keyframes fadeout {
-  from { opacity: 1; }
-  to   { opacity: 0; }
-}
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+  }
 
-.modal-header h2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+  /* Internet Explorer */
+  @-ms-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+  }
 
-#name2 {
-  padding-right: 38px;
-}
+  /* Opera < 12.1 */
+  @-o-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+  }
 
-#email2 {
-  padding-right: 38px;
-  margin-bottom: 10px
-}
+  .modal-header h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-#message2 {
-  padding-right: 38px;
-}
+  #name2 {
+    padding-right: 38px;
+  }
 
-.form-control-feedback {
-  color: #cccccc;
-}
+  #email2 {
+    padding-right: 38px;
+    margin-bottom: 10px
+  }
 
-.fa-user {
-  float: right;
-  position: relative;
-  bottom: 26px;
-  right: 14px;
-  pointer-events: none;
-}
+  #message2 {
+    padding-right: 38px;
+  }
 
-#fa-envelope {
-  float: right;
-  position: relative;
-  bottom: 36px;
-  right: 13px;
-  pointer-events: none;
-}
+  .form-control-feedback {
+    color: #cccccc;
+  }
 
-.fa-pencil {
-  float: right;
-  position: relative;
-  bottom: 118px;
-  right: 14px;
-  pointer-events: none;
-}
+  .fa-user {
+    float: right;
+    position: relative;
+    bottom: 26px;
+    right: 14px;
+    pointer-events: none;
+  }
 
-.form-group textarea {
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-}
+  #fa-envelope {
+    float: right;
+    position: relative;
+    bottom: 36px;
+    right: 13px;
+    pointer-events: none;
+  }
 
-#btn-submit:hover {
-  background: #000;
-}
+  .fa-pencil {
+    float: right;
+    position: relative;
+    bottom: 118px;
+    right: 14px;
+    pointer-events: none;
+  }
+
+  .form-group textarea {
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
+
+  #btn-submit:hover {
+    background: #000;
+  }
