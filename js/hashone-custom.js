@@ -1,5 +1,7 @@
 jQuery(function($) {
 
+  $(window).stellar();
+
   $('#hs-bx-slider').bxSlider({
     'pager': false,
     'auto': true,

@@ -1804,15 +1804,14 @@ color: #EE3B24;
 ## Contact Section
 --------------------------------------------------------------*/
 
-
-
 #hs-contact-section {
   color: #FFF;
   background-image: url(../images/Chapel-interior.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  position: relative;
   background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 @media screen and (max-width: 768px) {
@@ -1826,9 +1825,20 @@ body {
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
+
 .hs-contact-section {
   position: relative;
 }
+
+#hs-contact-section .hs-contact-overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.3);
+}
+
 #hs-contact-section .hs-container {
   position: relative;
 }
