@@ -1814,6 +1814,12 @@ color: #EE3B24;
 	background-attachment: fixed;
 }
 
+@media screen and (max-width: 768px) {
+  #hs-contact-section {
+    background-attachment: scroll;
+  }
+}
+
 body {
   height: 100%;
   overflow: scroll;
