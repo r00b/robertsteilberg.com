@@ -1186,17 +1186,7 @@ embed, iframe, object {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 1px
 }
-#hs-home-slider-section .bx-wrapper .bx-controls-direction a:hover {
-  opacity: 1;
-}
-#hs-home-slider-section .bx-wrapper .bx-prev {
-  background: url(images/prev.png) no-repeat center;
-  left: 20px;
-}
-#hs-home-slider-section .bx-wrapper .bx-next {
-  background: url(images/next.png) no-repeat center;
-  right: 20px;
-}
+
 
 /*--------------------------------------------------------------
 ## About Section
@@ -1814,11 +1804,7 @@ color: #EE3B24;
 ## Contact Section
 --------------------------------------------------------------*/
 
-@media screen and (max-width: 768px) {
-  #hs-contact-section {
-    background-attachment: scroll;
-  }
-}
+
 
 #hs-contact-section {
   color: #FFF;
@@ -1828,6 +1814,13 @@ color: #EE3B24;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 768px) {
+  #hs-contact-section {
+    background-attachment: scroll;
+  }
+}
+
 body {
   height: 100%;
   overflow: scroll;
