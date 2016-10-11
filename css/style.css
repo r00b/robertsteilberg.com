@@ -1817,9 +1817,19 @@ color: #EE3B24;
 #hs-contact-section {
   color: #FFF;
   background-image: url(../images/Chapel-interior.jpg);
-  background-size: cover;
+  /*background-size: cover;
   background-attachment: fixed;
-  overflow: hidden;
+  overflow: hidden;*/
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+  /*background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+
 }
 body {
   height: 100%;
