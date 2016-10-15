@@ -168,7 +168,7 @@ jQuery(function($) {
 
   $('#menu-item-contact').click(function() {
     $("html,body").animate({
-      scrollTop: $('#hs-contact-section').offset().top - 81
+      scrollTop: $('#hs-contact-section').offset().top - 82
     }, 800);
   });
 
