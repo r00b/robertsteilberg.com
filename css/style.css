@@ -2472,6 +2472,7 @@ body {
   color: #EE3B24;
 }
 .translucent-bg a:hover {
+  color: #FFF;
   text-decoration: none;
 }
 .translucent-bg {
