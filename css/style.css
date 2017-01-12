@@ -2739,6 +2739,13 @@ body {
 .timeline>li .btn:hover {
   color: #fff;
 }
+#duke-cs {
+  /*  max-width: 80%; */
+  vertical-align: middle;
+  position: static;
+  margin-top: 5px;
+  border-radius: 50%;
+}
 #duke-health {
   max-width: 65%;
   /* Adhere to container width. */
