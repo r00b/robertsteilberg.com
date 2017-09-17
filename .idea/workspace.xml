@@ -27,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="613" column="13" lean-forward="true" selection-start-line="613" selection-start-column="13" selection-end-line="613" selection-end-column="13" />
+            <state relative-caret-position="103">
+              <caret line="129" column="8" lean-forward="false" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -37,7 +37,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="17">
               <caret line="2763" column="9" lean-forward="false" selection-start-line="2763" selection-start-column="9" selection-end-line="2763" selection-end-column="9" />
               <folding />
             </state>
@@ -55,6 +55,7 @@
       <find>R&amp;D</find>
       <find>inspectx-modal</find>
       <find>!</find>
+      <find>english</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,6 +96,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,8 +114,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,11 +171,12 @@
       <workItem from="1503370611595" duration="16000" />
       <workItem from="1503370640453" duration="4000" />
       <workItem from="1505598566432" duration="4116000" />
+      <workItem from="1505668495134" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8874000" />
+    <option name="totallyTimeSpent" value="8891000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -226,6 +228,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46971">
+          <caret line="2763" column="9" lean-forward="false" selection-start-line="2763" selection-start-column="9" selection-end-line="2763" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -424,7 +442,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="17">
           <caret line="2763" column="9" lean-forward="false" selection-start-line="2763" selection-start-column="9" selection-end-line="2763" selection-end-column="9" />
           <folding />
         </state>
@@ -432,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="613" column="13" lean-forward="true" selection-start-line="613" selection-start-column="13" selection-end-line="613" selection-end-column="13" />
+        <state relative-caret-position="103">
+          <caret line="129" column="8" lean-forward="false" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
           <folding />
         </state>
       </provider>
