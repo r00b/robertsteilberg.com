@@ -2915,9 +2915,6 @@ h5 {
   to   { opacity: 1; }
 }
 
-
-
-
 @keyframes fadeout {
   from { opacity: 1; }
   to   { opacity: 0; }
@@ -3001,4 +2998,12 @@ h5 {
 
 #btn-submit:hover {
   background: #000;
+}
+
+.modal-image {
+  width: 49%;
+}
+
+.firepage-image {
+  width: 33%;
 }
