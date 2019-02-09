@@ -1199,6 +1199,11 @@ embed, iframe, object {
   width: 49%;
   float: left;
 }
+#hs-about-us-section .hs-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .hs-about-sec h2.hs-section-title {
   text-align: left;
   max-width: 100%;
@@ -2739,6 +2744,9 @@ body {
 .timeline>li .btn:hover {
   color: #fff;
 }
+#mvax {
+  border-radius: 50%;
+}
 #duke-cs {
   /*  max-width: 80%; */
   vertical-align: middle;
@@ -2884,6 +2892,12 @@ h5 {
   padding: 2px 16px;
   background-color: #5cb85c;
   color: white;
+}
+
+.mVax-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @keyframes fadein {
