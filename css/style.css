@@ -2299,6 +2299,9 @@ body {
     margin-right: auto;
     float: none;
   }
+  #hs-about-us-section .hs-container {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 580px) {
   .hs-slide-cap-title {
